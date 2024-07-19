@@ -1,0 +1,10 @@
+Exercise Prompt: Creating a NavBar Component
+In this exercise, you will create a NavBar component that serves as the
+primary navigation menu for your Nuxt.js application.
+● Create a new Vue component file named NavBar.vue within the
+appropriate directory structure of your Nuxt.js project.
+● Define the structure of the NavBar component, including the main
+navigation links, logo or site title, and any additional elements such as
+search bars or user menus.
+● Apply CSS styling to the NavBar component to achieve a visually
+appealing design.
