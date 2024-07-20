@@ -1,0 +1,11 @@
+Create a Route for Personalized Greetings
+Define a page route that accepts a name as a parameter. For example, the
+route could be "/greeting/:name".
+When a user accesses this route with a specific name (e.g.,
+"/greeting/Alice"), your nuxt app should dynamically generate a
+personalized greeting message for that user.
+Design a home page (/) for your application.
+Prompt the user to enter their name
+the user's name should be passed as a parameter to the "/greeting/:name"
+route.
+Happy Coding!
