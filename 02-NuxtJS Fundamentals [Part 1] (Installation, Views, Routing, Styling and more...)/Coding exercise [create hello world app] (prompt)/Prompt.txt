@@ -1,0 +1,8 @@
+Add a Heading saying “Hello World” to Your Nuxt 3 Project.
+Setup: Create a new Nuxt 3 project using your Terminal.
+Navigate to the App.vue file in the Home directory of your Nuxt
+project.
+Add a Heading element with the text "Hello, World!".
+Expected Output: When you view your Nuxt application in the browser, you
+should see a large heading at the top of the page with the text "Hello,
+World!".
