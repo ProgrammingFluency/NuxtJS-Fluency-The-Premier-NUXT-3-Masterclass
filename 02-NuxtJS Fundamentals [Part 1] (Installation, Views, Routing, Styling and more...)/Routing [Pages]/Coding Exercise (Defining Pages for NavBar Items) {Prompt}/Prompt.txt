@@ -1,0 +1,6 @@
+Exercise Prompt: Creating Pages for NavBar Items
+In this exercise, you will extend your Nuxt.js project by creating separate
+pages for the navigation items listed in the NavBar component. Each page
+will represent a unique section of your application corresponding to the
+Home, About, Services, Pricing, and Contact links.
+Just Define the Pages…
