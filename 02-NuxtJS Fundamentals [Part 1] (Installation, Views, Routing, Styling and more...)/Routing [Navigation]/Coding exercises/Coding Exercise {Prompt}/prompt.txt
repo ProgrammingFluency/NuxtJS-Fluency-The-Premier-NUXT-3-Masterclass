@@ -1,0 +1,8 @@
+Exercise Prompt: Adding Navigation Links to NavBar
+Items
+In this exercise, you will extend the functionality of the
+NavBar component by incorporating navigation links for
+each item listed in the NavBar. These links will enable
+users to navigate seamlessly between different sections
+of your application, such as Home, About, Services,
+Pricing, and Contact.
