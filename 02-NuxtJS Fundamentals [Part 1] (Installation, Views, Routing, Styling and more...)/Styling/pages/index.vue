@@ -4,7 +4,7 @@
 <template>
     <div>
         <h1>Home page</h1>
-        <h1 class="animate__animated animate__bounce">Hello Nuxt JS</h1>
+        <h1 class="text-5xl font-extrabold dark:text-white">Heading 1</h1>
     </div>
 </template>
 <style scoped>

@@ -13,5 +13,8 @@
     "animate.css": "^4.1.1",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1"
   }
 }
