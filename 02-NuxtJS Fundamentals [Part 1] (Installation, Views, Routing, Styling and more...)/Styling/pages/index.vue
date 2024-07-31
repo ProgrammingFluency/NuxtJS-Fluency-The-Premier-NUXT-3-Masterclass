@@ -7,5 +7,4 @@
     </div>
 </template>
 <style scoped>
-    @import '~/assets/styles/style.css'
 </style>
