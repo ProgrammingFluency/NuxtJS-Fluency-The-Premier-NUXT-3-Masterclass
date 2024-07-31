@@ -6,7 +6,6 @@
         <h1>Home page</h1>
     </div>
 </template>
-<style>
+<style scoped>
     @import '~/assets/styles/style.css'
-
 </style>
