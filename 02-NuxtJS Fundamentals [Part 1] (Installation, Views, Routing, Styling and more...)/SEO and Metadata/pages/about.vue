@@ -1,12 +1,6 @@
 <script setup>
-    useHead({
-        title: 'about page',
-        meta: [
-           {
-            name: 'description',
-            content: 'this is about page'
-           }
-        ]
+    useSeoMeta({
+        title: 'my about page'
     })
 </script>
 
