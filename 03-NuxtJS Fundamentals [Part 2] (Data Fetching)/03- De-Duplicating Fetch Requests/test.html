@@ -1,0 +1,14 @@
+<button onclick="getData()">Get product</button>
+<script>
+    const getData = () => {
+        const interval = setInterval(() => {
+            fetch('https://fakestoreapi.com/products/1')
+                .then(response => response.json())
+                .then(data => console.log(data))
+        }, 1)
+
+        setTimeout(() => {
+            clearInterval(interval)
+        }, 2000)
+    }
+</script>
