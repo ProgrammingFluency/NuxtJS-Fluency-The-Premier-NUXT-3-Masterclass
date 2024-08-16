@@ -3,7 +3,7 @@
         server: false
     })
 
-    console.log(product.value)
+    console.log(product)
     
 </script>
 
