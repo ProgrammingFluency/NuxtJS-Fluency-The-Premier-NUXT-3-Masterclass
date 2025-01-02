@@ -11,6 +11,20 @@
         <br>
         <button @click="logIn">Login</button>
 
+        <br>
+        <br>
+
+
+        <button @click="googleLogin">
+            Login With Google
+        </button>
+
+        <br>
+        <br>
+
+
+        <button @click="githubLogin">Login With Github</button>
+
 
         <div v-if="successMsg">
                 <h1> {{ successMsg }} </h1>
@@ -55,4 +69,50 @@
             }, 2000)
            
     }
+
+    const googleLogin = async () => {
+       
+       const { data, error } = await supabase.auth.signInWithOAuth({
+       provider: 'google'
+       })
+
+
+
+
+       if(error){
+           successMsg.value = null
+           errorMsg.value = error.message
+           return
+       }
+       errorMsg.value = null
+       successMsg.value = 'Redirecting...'
+       setTimeout(async () => {
+           successMsg.value = null
+           await navigateTo('/')
+       }, 2000)
+   }
+
+   const githubLogin = async () => {
+       
+       const { data, error } = await supabase.auth.signInWithOAuth({
+       provider: 'github'
+       })
+
+
+
+
+       if(error){
+           successMsg.value = null
+           errorMsg.value = error.message
+           return
+       }
+       errorMsg.value = null
+       successMsg.value = 'Redirecting...'
+       setTimeout(async () => {
+           successMsg.value = null
+           await navigateTo('/')
+       }, 2000)
+   }
+
+
 </script>
